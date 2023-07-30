@@ -25,6 +25,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Select hand configuration */
 
 #define MASTER_LEFT
+#define TAPPING_TERM 200
+#define RETRO_TAPPING
+#define PERMISSIVE_HOLD
+
 // #define MASTER_RIGHT
 // #define EE_HANDS
 
