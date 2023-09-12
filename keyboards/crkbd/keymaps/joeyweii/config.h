@@ -29,15 +29,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define CTL_SPC LCTL_T(KC_SPC)
 #define SFT_ENT LSFT_T(KC_ENT)
 
-#define TAPPING_TERM 200
+#define TAPPING_TERM_PER_KEY
+#define HOLD_ON_OTHER_KEY_PRESS_PER_KEY
 #define RETRO_TAPPING
-#define PERMISSIVE_HOLD
 
 // #define MASTER_RIGHT
 // #define EE_HANDS
-
-//#define QUICK_TAP_TERM 0
-//#define TAPPING_TERM 100
 
 #ifdef RGBLIGHT_ENABLE
     #define RGBLIGHT_EFFECT_BREATHING
